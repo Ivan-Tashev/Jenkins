@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Buildiing...'
+                java MathMaxi.java
             }
         }
         stage('Deploy') {
